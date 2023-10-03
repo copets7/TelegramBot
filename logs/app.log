@@ -258,3 +258,21 @@ ERROR in ch.qos.logback.classic.pattern.LoggerConverter@732f29af - failed to par
 2023-10-03 21:18:53,332 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-10-03 21:18:53,336 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-10-03 21:18:53,345 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-03 21:27:43,499 INFO by.andrey.yarosh.andreyyaroshbot.AndreyYaroshBotApplication [main] Starting AndreyYaroshBotApplication using Java 17.0.5 on fedora with PID 35025 (/home/andrey/IdeaProjects/AndreyYaroshBot/target/classes started by andrey in /home/andrey/IdeaProjects/AndreyYaroshBot)
+2023-10-03 21:27:43,501 DEBUG by.andrey.yarosh.andreyyaroshbot.AndreyYaroshBotApplication [main] Running with Spring Boot v2.7.12, Spring v5.3.27
+2023-10-03 21:27:43,503 INFO by.andrey.yarosh.andreyyaroshbot.AndreyYaroshBotApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-03 21:27:44,005 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-03 21:27:44,050 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2023-10-03 21:27:44,404 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-03 21:27:44,440 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-03 21:27:44,584 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-03 21:27:44,661 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-03 21:27:44,974 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-03 21:27:44,988 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-10-03 21:27:45,525 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-03 21:27:45,535 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03 21:27:46,893 INFO by.andrey.yarosh.andreyyaroshbot.AndreyYaroshBotApplication [main] Started AndreyYaroshBotApplication in 3.915 seconds (JVM running for 4.793)
+2023-10-03 21:28:04,668 ERROR java.net.CookieManager [AndreyYaroshBot Telegram Executor] Invalid cookie for https://www.belta.by/currency/: f_version
+2023-10-03 21:29:53,929 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-03 21:29:53,932 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-03 21:29:53,944 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
